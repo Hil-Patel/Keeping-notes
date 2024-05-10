@@ -1,0 +1,81 @@
+nav{
+    display: flex;
+    padding-left: 2rem;
+    gap: 1rem;
+    border-bottom: 1px solid rgb(121, 120, 120);
+    box-shadow: 5px 1px 5px  rgb(102, 102, 102);
+}
+nav>img{
+    width: 5rem;
+    height: 5rem;
+}
+.note{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.note>input{
+    width: 15rem;
+    font-size: 15px;
+    height: 2rem;
+    border: 1px solid rgb(136, 136, 136);
+    border-radius: 10px;
+    padding: 5px 20px;
+
+}
+.add {
+    background-color: #3824e6;
+    width: 5rem;
+    height: 2rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+ .add:hover {
+    background-color: #4f92e9; 
+}
+.tasklist{
+    margin: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.tasklist-note{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    max-width: 15%;
+    min-height: 150px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgb(228, 227, 224);
+}
+.tasklist-note>p{
+    width: 100%;
+    padding: 0 1rem; 
+    word-wrap: break-word; 
+    overflow-wrap: break-word;
+}
+.operation{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.operation>button{
+    background-color: rgb(247, 67, 67);
+    width: 80px;
+    border-radius: 10px;
+    padding: .3rem .7rem;
+}
+.operation>button:hover{
+    background-color: rgb(245, 146, 146);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
